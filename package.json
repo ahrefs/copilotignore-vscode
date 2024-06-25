@@ -1,6 +1,6 @@
 {
-  "name": "copilotignore-vscode",
-  "displayName": "Copilot Ignore",
+  "name": "ahrefs-copilotignore-vscode",
+  "displayName": "Ahrefs - Copilot Ignore",
   "description": "Ignore files for Copilot with .copilotignore in Visual Studio Code",
   "version": "0.1.6",
   "engines": {
@@ -30,23 +30,23 @@
   },
   "pricing": "Free",
   "icon": "images/icon.png",
-  "publisher": "Mattickx",
-  "homepage": "https://github.com/mattickx/copilotignore-vscode",
+  "publisher": "Ahrefs",
+  "homepage": "https://github.com/ahrefs/copilotignore-vscode",
   "repository": {
     "type": "git",
     "url": "https://github.com/mattickx/copilotignore-vscode"
   },
   "bugs": {
-    "url": "https://github.com/mattickx/copilotignore-vscode/issues"
+    "url": "https://github.com/ahrefs/copilotignore-vscode/issues"
   },
   "author": {
-    "name": "Mathieu",
-    "url": "https://github.com/mattickx"
+    "name": "Calvinn Ng",
+    "url": "https://github.com/ahrefs/copilotignore-vscode"
   },
   "main": "./out/extension.js",
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
-    "build": "rm -rf ./out ./copilotignore-vscode-*.vsix ./copilotignore-vscode-*.tgz && npx tsc && npx vsce package",
+    "build": "rm -rf ./out ./ahrefs-copilotignore-vscode-*.vsix ./ahrefs-copilotignore-vscode-*.tgz && npx tsc && npx vsce package",
     "watch": "tsc -watch -p ./",
     "pretest": "npm run lint && npm run build && npm pack",
     "lint": "eslint src --ext ts",
