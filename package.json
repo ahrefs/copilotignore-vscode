@@ -34,7 +34,7 @@
   "homepage": "https://github.com/ahrefs/copilotignore-vscode",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mattickx/copilotignore-vscode"
+    "url": "https://github.com/ahrefs/copilotignore-vscode"
   },
   "bugs": {
     "url": "https://github.com/ahrefs/copilotignore-vscode/issues"
